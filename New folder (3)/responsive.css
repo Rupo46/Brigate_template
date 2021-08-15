@@ -1,0 +1,93 @@
+/*small laptop layout */
+
+@media only screen and (min-width:960px) and (max-width:1266px) {
+
+    .graybg:nth-child(3) {
+        margin-right: 0 !important;
+    }
+
+    .idea_content_div h3 {
+        padding: 0;
+    }
+
+    .idea_content_div p {
+        color: #fff;
+        font-size: 15px;
+        margin-left: 86px;
+        margin-bottom: 27px;
+    }
+
+    .lorem_class {
+        margin-bottom: 0px;
+        padding: 7px !important;
+        padding-left: 42px !important;
+    }
+
+    section.our_latest_idea h1 {
+        font-size: 29px;
+    }
+
+    .join_our_team_button {
+        margin: auto;
+        height: 41px;
+    }
+
+    .our_engeeinears {
+        width: 230px;
+    }
+
+    .project_time {
+        width: 30%;
+    }
+
+    .before_after::before {
+        left: 29%;
+    }
+
+    .widget_social ul li span {
+        margin-right: -4px;
+        width: 79px;
+    }
+
+
+}
+
+/* Tablate layout */
+@media only screen and (min-width:600px) and (max-width:768px) {
+
+    .more_from_us_img img {
+        width: 100%;
+    }
+
+    .our_engeeinears {
+        width: 100%;
+    }
+
+    .engeneer_members img {
+        width: 100%;
+    }
+
+    .single_project_img img {
+        width: 100%;
+    }
+
+    .before_after::before {
+        left: 15%;
+    }
+
+}
+
+@media only screen and (min-width:200px) and (max-width:599px) {
+    .our_engeeinears {
+        width: 100%;
+    }
+
+    .project_time {
+        width: 30%;
+    }
+
+    .before_after::before {
+        left: 29%;
+
+    }
+}

@@ -1,0 +1,746 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	font-family: 'Work Sans', sans-serif;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+img {
+	max-width: 100%;
+}
+
+
+/* 
+==============================================
+header section
+==============================================
+*/
+
+.header_area {
+	background: #F5F5F5;
+}
+
+.phone_number {
+	padding: 10px;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+}
+
+.phone_number i {
+	font-size: 17px;
+	color: #FE5200;
+	width: 28px;
+	padding-top: 6px;
+}
+
+.phone_number a {
+	text-decoration: none;
+	color: #606060;
+}
+
+.email_addres a {
+	text-decoration: none;
+	color: #606060;
+}
+
+.email_addres i {
+	font-size: 17px;
+	color: #FE5200;
+	width: 28px;
+	padding-top: 5px;
+}
+
+.email_addres {
+	padding: 10px;
+	border-right: 1px solid #ddd;
+}
+
+.header_social_icons ul {
+	list-style: none;
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+
+.header_social_icons ul li {
+	width: 25px;
+	border-right: 1px solid #ddd;
+	padding: 10px;
+	padding-right: 38px;
+	text-align: center;
+}
+
+.header_social_icons li a {
+	color: black;
+	transition: .3s;
+}
+
+.header_social_icons li a:hover {
+	color: #FE5200;
+}
+
+/* 
+====================================================
+Menu section
+====================================================
+*/
+
+ul.our_primary_menu li a {
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px 20px;
+	color: #111;
+	font-weight: 500;
+}
+
+/* 
+===========
+Dropdown menu css
+===========
+*/
+ul.our_primary_menu li {
+
+	position: relative;
+}
+
+ul.our_primary_menu li ul {
+	position: absolute;
+	width: 300px;
+	left: 0;
+	top: 0;
+	background: #fafafa;
+	list-style: none;
+	padding: 10;
+	opacity: 0;
+	visibility: hidden;
+	transition: all 0.4s ease-in-out;
+	box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+}
+
+ul.our_primary_menu li ul li {
+	flex-direction: column;
+}
+
+ul.our_primary_menu li:hover ul {
+	opacity: 1;
+	visibility: visible;
+	top: 129%;
+}
+
+/* 
+=============================================
+slider section
+=============================================
+*/
+.slider_section {
+	background: url(img/slide-1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 100px 0;
+}
+
+.slider_section h1 {
+	color: #fff;
+	font-weight: 700;
+}
+
+.slider_section p {
+	color: #fff;
+}
+
+.btn-primary {
+	background: #ff5200 !important;
+	border-color: #ff5200;
+}
+
+.btn-primary:hover {
+	background: #111 !important;
+
+}
+
+
+/*
+=====================================================
+ emergencey_section 
+=====================================================
+*/
+.graybg {
+	background: #FFFFFF;
+
+	margin-right: 94px;
+
+}
+
+.graybg:nth-child(4) {
+	margin-right: 0;
+	margin-left: 0;
+}
+
+
+.emergencey_section {
+	background: #F5F7F6;
+}
+
+.emergencey_section span i {
+	text-align: center;
+	font-size: 37px;
+	color: #ff5200;
+	display: flex;
+	justify-content: center;
+	padding-top: 38px;
+	padding-bottom: 19px;
+}
+
+.emergencey_section h3 {
+	text-align: center;
+}
+
+.emergencey_section p {
+	text-align: center;
+	padding-top: 19px;
+}
+
+.emergencey_section a {
+	text-align: center;
+	display: block;
+	text-decoration: none;
+	color: #ff5200;
+	padding-top: 7px;
+	padding-bottom: 55px;
+}
+
+/* 
+====================================================
+work with our team section
+====================================================
+*/
+.work_with_our_team h1 {
+	font-weight: bold;
+}
+
+.work_with_our_team ul {
+	list-style: none;
+	padding-left: 0;
+	margin-bottom: 60px;
+}
+
+.work_with_our_team ul li {
+	padding: 10px;
+	margin-left: 5px;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.work_with_our_team ul i {
+	width: 20px;
+	margin-right: 5px;
+}
+
+/* 
+==========================================================
+number section
+==========================================================
+*/
+
+.number_section {
+	background: linear-gradient(#0000007d, #000000c2), url(img/why-choose-us1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+section.number_section i {
+	color: #fff;
+	text-align: center;
+	width: 100%;
+	font-size: 55px;
+}
+
+.number_section h1 {
+	color: #fff;
+	font-size: 60px;
+	width: 100%;
+	text-align: center;
+	margin-top: 15px;
+}
+
+.number_section h3 {
+	color: #fff;
+	width: 100%;
+	text-align: center;
+	margin-top: 15px;
+	font-size: 20px;
+
+}
+
+/*
+======================================================
+ more from us section
+=======================================================
+*/
+.more_from_us_section {
+	background: #F5F7F6;
+}
+
+.more_from_us_section h1 {
+	width: 100%;
+	text-align: center;
+}
+
+.brigate_text {
+	width: 50%;
+	text-align: center;
+}
+
+.brigate_text {
+	width: 50%;
+	text-align: center;
+	margin: auto;
+	margin-top: 18px;
+	margin-bottom: 40px;
+}
+
+.more_from_us_section h4 {
+	width: 102%;
+	font-size: 20px;
+	margin-top: 15px;
+}
+
+/* 
+=======================================================
+pricing plan section
+=======================================================
+*/
+.priceing_plan_section {
+	text-align: center;
+}
+
+
+
+.pricing_section_div h2 {
+	font-size: 30px;
+	text-align: left;
+}
+
+.pricing_section_div h1 {
+	font-weight: 700;
+	font-size: 45px;
+	width: 24%;
+
+
+}
+
+.pricing_section_div ul {
+	list-style: none;
+}
+
+.pricing_section_div ul li {
+	padding: 10px;
+	font-size: 18px;
+}
+
+.pricing_section_div {
+	border: 1px solid #ddd;
+	padding: 30px 30px;
+}
+
+/*
+=================================================
+our latest idea
+=================================================
+*/
+
+section.our_latest_idea h1 {
+	color: #fff;
+	font-size: 34px;
+	padding-left: 42px !important;
+}
+
+.lorem_class {
+	color: #fff;
+	margin-bottom: 37px;
+	padding: 15px !important;
+	padding-left: 42px !important;
+}
+
+.idea_content_div h3 {
+	color: #fff;
+	font-size: 21px;
+	padding: 0px 0px 0px 25px;
+	margin-bottom: 0px;
+	text-align: center;
+	display: inline-block;
+	padding-bottom: 4px;
+	position: absolute;
+}
+
+.idea_content_div p {
+	color: #fff;
+	font-size: 15px;
+
+
+	margin-left: 110px;
+	margin-bottom: 83px;
+}
+
+.idea_content_div i {
+	display: inline-block;
+	font-size: 30px;
+	width: 40px;
+	height: 30px;
+	margin-left: 44px;
+	text-align: center;
+	margin-top: 0;
+	position: relative;
+	color: #ff5200;
+}
+
+.row_tow_div {
+	padding: 0;
+}
+
+/* 
+==========================================================
+meet our team
+==========================================================
+*/
+.our_engeeinears {
+	border-left: 1px solid #ddd !important;
+	padding: 0;
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	margin-right: 10px;
+	width: 275px;
+}
+
+.our_engeeinears:nth-child(4) {
+	margin-right: 0;
+	margin-left: 0;
+}
+
+.brigate_title {
+	text-align: center;
+	position: relative;
+}
+
+.brigate_title::before {
+	content: "";
+	top: 99%;
+	left: 46%;
+	background: #ff5200;
+	width: 58px;
+	height: 3px;
+	bottom: 0;
+	position: absolute;
+}
+
+.our_engeeinears h3 {
+	font-size: 20px;
+	text-align: center;
+	margin-top: 15px;
+}
+
+.our_engeeinears p {
+	text-align: center;
+}
+
+.engineers_social_link_icons {
+	list-style: none;
+	margin-bottom: 25px;
+}
+
+.engineers_social_link_icons li {
+	padding: 10px;
+	display: inline-block;
+	padding-left: 0;
+	transition: .5s ease-in-out;
+	transform: translateY(40px);
+	opacity: 0;
+	visibility: hidden;
+}
+
+.our_engeeinears:hover .engineers_social_link_icons li {
+	opacity: 1;
+	visibility: visible;
+	transform: translateY(0);
+}
+
+.our_engeeinears:hover .engineers_social_link_icons li:nth-child(1) {
+	transition-delay: .1s;
+}
+
+.our_engeeinears:hover .engineers_social_link_icons li:nth-child(2) {
+	transition-delay: .2s;
+}
+
+.our_engeeinears:hover .engineers_social_link_icons li:nth-child(3) {
+	transition-delay: .3s;
+}
+
+.our_engeeinears:hover .engineers_social_link_icons li:nth-child(4) {
+	transition-delay: .4s;
+}
+
+.engineers_social_link li a {
+	font-size: 25px;
+	width: 40px;
+	height: 40px;
+	background: rgb(170, 165, 165);
+	line-height: 40px;
+	text-align: center;
+	border-radius: 50%;
+	display: block;
+}
+
+.engeneer_members {
+	position: relative;
+}
+
+.engineers_social_link {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+}
+
+.join_our_team_button {
+	width: 250px;
+	text-align: center;
+	margin: auto;
+}
+
+/* 
+===================================================
+our best projects
+===================================================
+*/
+
+.single_project_img {
+	position: relative;
+}
+
+.single_project_info {
+	left: 0;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	background: linear-gradient(#6f6f6f91, #000000);
+	height: 155px;
+	transition: .4s;
+}
+
+.single_project_info {
+	padding: 20px;
+}
+
+.single_project_info p a {
+	color: #fff;
+	text-align: center !important;
+}
+
+.single_project_info h4 {
+	color: #fff;
+
+}
+
+.single_project_info .learn_more {
+	opacity: 0;
+	margin-left: -40px;
+	transition: .40s;
+	visibility: hidden;
+	text-decoration: none;
+
+}
+
+.single_project:hover a {
+	margin-left: 0;
+	opacity: 1;
+	visibility: visible;
+	color: #fff;
+
+}
+
+.single_project:hover .single_project_info {
+	height: 185px;
+}
+
+.our_best_project_section {
+	background: #F5F7F6;
+}
+
+/* 
+========================================================
+our latest news section
+========================================================
+*/
+.before_after::before {
+	content: "";
+	top: 15px;
+	left: 28%;
+	background: rgb(255, 82, 0);
+	width: 36px;
+	height: 3px;
+	bottom: 0px;
+	position: absolute;
+}
+
+.our_news_info {
+	position: relative;
+	padding: 5px;
+}
+
+.project_time {
+	width: 25%;
+
+}
+
+.project_coments {
+	width: 25%;
+	margin-left: 146px;
+	display: inline-block !important;
+	bottom: 26px;
+	position: relative;
+}
+
+.our_news_single {
+	border: 1px solid #ddd;
+
+}
+
+.our_news_single {
+	overflow: hidden;
+
+}
+
+.our_news_img {
+	transition: .3s;
+}
+
+.our_news_single:hover .our_news_img {
+	transform: scale(1.1);
+}
+
+
+
+/*
+===========================================
+Footer section
+===========================================
+*/
+
+.footer_section {
+	background: #111111;
+	color: #fff;
+}
+
+.footer_section a {
+	color: #fff;
+}
+
+.footer_top {
+	border-bottom: 1px solid #444;
+}
+
+.footer_copyright p {
+	margin-bottom: 0;
+}
+
+.footer_widget h3 {
+	font-size: 22px;
+	border-bottom: 1px solid #444;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+
+
+
+.footer_widget ul {
+	list-style: none;
+	padding-left: 0;
+	margin-left: 0;
+}
+
+.footer_widget ul li {
+	margin: 10px 0;
+}
+
+.footer_widget ul li a {
+	text-decoration: none;
+	transition: 0.4s;
+}
+
+.footer_widget ul li a:hover {
+	color: #ff5200;
+	letter-spacing: 1px;
+}
+
+/* widget_social */
+
+.widget_social ul {
+	display: flex;
+}
+
+.widget_social ul li {
+	padding: 10px 0;
+	margin: 0 !important;
+}
+
+.widget_social ul li span {
+	display: inline-block;
+	margin-right: 10px;
+	font-size: 18px;
+}
+
+.widget_social ul li a {
+	font-size: 20px;
+	padding: 10px 10px;
+}
+
+.footer_contact_item {
+	margin-bottom: 20px;
+
+}
+
+.footer_contact_item span {
+	display: inline-block;
+	margin-right: 15px;
+	font-size: 20px;
+}
+
+
+.footer_contact_item a {
+	text-decoration: none;
+	transition: .4s;
+}
+
+.footer_contact_item a:hover {
+	color: #ff5200;
+}
+
+.footer_copyright {
+	color: #606060;
+}
+
+.footer_copyright a {
+	text-decoration: none;
+	transition: .4s;
+}
+
+.footer_copyright a:hover {
+	color: #ff5200;
+}
+
+.footer_widget img {
+	margin-bottom: 28px;
+}
